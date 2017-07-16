@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		944D5E6E1F1899120030F055 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D5E6D1F1899120030F055 /* main.m */; };
+		944D5E711F1899120030F055 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D5E701F1899120030F055 /* AppDelegate.m */; };
+		944D5E741F1899120030F055 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D5E731F1899120030F055 /* ViewController.m */; };
+		944D5E771F1899120030F055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944D5E751F1899120030F055 /* Main.storyboard */; };
+		944D5E791F1899120030F055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944D5E781F1899120030F055 /* Assets.xcassets */; };
+		944D5E7C1F1899120030F055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944D5E7A1F1899120030F055 /* LaunchScreen.storyboard */; };
+		944D5E871F1899120030F055 /* NCDropViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D5E861F1899120030F055 /* NCDropViewTests.m */; };
+		944D5E921F1899120030F055 /* NCDropViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D5E911F1899120030F055 /* NCDropViewUITests.m */; };
+		944D5EA11F18992C0030F055 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D5EA01F18992C0030F055 /* UIView+Frame.m */; };
+		944D5EAA1F1899380030F055 /* LxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D5EA31F1899380030F055 /* LxButton.m */; };
+		944D5EAC1F1899380030F055 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D5EA71F1899380030F055 /* UIButton+ImageTitleSpacing.m */; };
+		944D5EAD1F1899380030F055 /* UILabel+LXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D5EA91F1899380030F055 /* UILabel+LXLabel.m */; };
+		944D5EB31F189BEF0030F055 /* LXDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D5EB21F189BEF0030F055 /* LXDropView.m */; };
+		944D5EB71F18C6F80030F055 /* LXDropListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D5EB51F18C6F80030F055 /* LXDropListCell.m */; };
+		944D5EB81F18C6F80030F055 /* LXDropListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944D5EB61F18C6F80030F055 /* LXDropListCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		944D5E831F1899120030F055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944D5E611F1899120030F055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944D5E681F1899120030F055;
+			remoteInfo = NCDropView;
+		};
+		944D5E8E1F1899120030F055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944D5E611F1899120030F055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944D5E681F1899120030F055;
+			remoteInfo = NCDropView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		944D5E691F1899120030F055 /* NCDropView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCDropView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		944D5E6D1F1899120030F055 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		944D5E6F1F1899120030F055 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		944D5E701F1899120030F055 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		944D5E721F1899120030F055 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		944D5E731F1899120030F055 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		944D5E761F1899120030F055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		944D5E781F1899120030F055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		944D5E7B1F1899120030F055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		944D5E7D1F1899120030F055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944D5E821F1899120030F055 /* NCDropViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCDropViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		944D5E861F1899120030F055 /* NCDropViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCDropViewTests.m; sourceTree = "<group>"; };
+		944D5E881F1899120030F055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944D5E8D1F1899120030F055 /* NCDropViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCDropViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		944D5E911F1899120030F055 /* NCDropViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCDropViewUITests.m; sourceTree = "<group>"; };
+		944D5E931F1899120030F055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944D5E9F1F18992C0030F055 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "../UIView+Frame.h"; sourceTree = "<group>"; };
+		944D5EA01F18992C0030F055 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "../UIView+Frame.m"; sourceTree = "<group>"; };
+		944D5EA21F1899380030F055 /* LxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LxButton.h; path = ../LxButton.h; sourceTree = "<group>"; };
+		944D5EA31F1899380030F055 /* LxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LxButton.m; path = ../LxButton.m; sourceTree = "<group>"; };
+		944D5EA61F1899380030F055 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+ImageTitleSpacing.h"; path = "../UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		944D5EA71F1899380030F055 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+ImageTitleSpacing.m"; path = "../UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		944D5EA81F1899380030F055 /* UILabel+LXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+LXLabel.h"; path = "../UILabel+LXLabel.h"; sourceTree = "<group>"; };
+		944D5EA91F1899380030F055 /* UILabel+LXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+LXLabel.m"; path = "../UILabel+LXLabel.m"; sourceTree = "<group>"; };
+		944D5EAF1F18995C0030F055 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		944D5EB11F189BEF0030F055 /* LXDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDropView.h; sourceTree = "<group>"; };
+		944D5EB21F189BEF0030F055 /* LXDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDropView.m; sourceTree = "<group>"; };
+		944D5EB41F18C6F80030F055 /* LXDropListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDropListCell.h; sourceTree = "<group>"; };
+		944D5EB51F18C6F80030F055 /* LXDropListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDropListCell.m; sourceTree = "<group>"; };
+		944D5EB61F18C6F80030F055 /* LXDropListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXDropListCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		944D5E661F1899120030F055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944D5E7F1F1899120030F055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944D5E8A1F1899120030F055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		944D5E601F1899110030F055 = {
+			isa = PBXGroup;
+			children = (
+				944D5E6B1F1899120030F055 /* NCDropView */,
+				944D5E851F1899120030F055 /* NCDropViewTests */,
+				944D5E901F1899120030F055 /* NCDropViewUITests */,
+				944D5E6A1F1899120030F055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		944D5E6A1F1899120030F055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				944D5E691F1899120030F055 /* NCDropView.app */,
+				944D5E821F1899120030F055 /* NCDropViewTests.xctest */,
+				944D5E8D1F1899120030F055 /* NCDropViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		944D5E6B1F1899120030F055 /* NCDropView */ = {
+			isa = PBXGroup;
+			children = (
+				944D5E6F1F1899120030F055 /* AppDelegate.h */,
+				944D5E701F1899120030F055 /* AppDelegate.m */,
+				944D5E721F1899120030F055 /* ViewController.h */,
+				944D5E731F1899120030F055 /* ViewController.m */,
+				944D5EB01F1899F30030F055 /* DropView */,
+				944D5EAE1F1899440030F055 /* Category */,
+				944D5E751F1899120030F055 /* Main.storyboard */,
+				944D5E781F1899120030F055 /* Assets.xcassets */,
+				944D5E7A1F1899120030F055 /* LaunchScreen.storyboard */,
+				944D5E7D1F1899120030F055 /* Info.plist */,
+				944D5E6C1F1899120030F055 /* Supporting Files */,
+			);
+			path = NCDropView;
+			sourceTree = "<group>";
+		};
+		944D5E6C1F1899120030F055 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				944D5E6D1F1899120030F055 /* main.m */,
+				944D5EAF1F18995C0030F055 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		944D5E851F1899120030F055 /* NCDropViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				944D5E861F1899120030F055 /* NCDropViewTests.m */,
+				944D5E881F1899120030F055 /* Info.plist */,
+			);
+			path = NCDropViewTests;
+			sourceTree = "<group>";
+		};
+		944D5E901F1899120030F055 /* NCDropViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				944D5E911F1899120030F055 /* NCDropViewUITests.m */,
+				944D5E931F1899120030F055 /* Info.plist */,
+			);
+			path = NCDropViewUITests;
+			sourceTree = "<group>";
+		};
+		944D5EAE1F1899440030F055 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				944D5E9F1F18992C0030F055 /* UIView+Frame.h */,
+				944D5EA01F18992C0030F055 /* UIView+Frame.m */,
+				944D5EA21F1899380030F055 /* LxButton.h */,
+				944D5EA31F1899380030F055 /* LxButton.m */,
+				944D5EA61F1899380030F055 /* UIButton+ImageTitleSpacing.h */,
+				944D5EA71F1899380030F055 /* UIButton+ImageTitleSpacing.m */,
+				944D5EA81F1899380030F055 /* UILabel+LXLabel.h */,
+				944D5EA91F1899380030F055 /* UILabel+LXLabel.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		944D5EB01F1899F30030F055 /* DropView */ = {
+			isa = PBXGroup;
+			children = (
+				944D5EB11F189BEF0030F055 /* LXDropView.h */,
+				944D5EB21F189BEF0030F055 /* LXDropView.m */,
+				944D5EB41F18C6F80030F055 /* LXDropListCell.h */,
+				944D5EB51F18C6F80030F055 /* LXDropListCell.m */,
+				944D5EB61F18C6F80030F055 /* LXDropListCell.xib */,
+			);
+			path = DropView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		944D5E681F1899120030F055 /* NCDropView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944D5E961F1899120030F055 /* Build configuration list for PBXNativeTarget "NCDropView" */;
+			buildPhases = (
+				944D5E651F1899120030F055 /* Sources */,
+				944D5E661F1899120030F055 /* Frameworks */,
+				944D5E671F1899120030F055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCDropView;
+			productName = NCDropView;
+			productReference = 944D5E691F1899120030F055 /* NCDropView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		944D5E811F1899120030F055 /* NCDropViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944D5E991F1899120030F055 /* Build configuration list for PBXNativeTarget "NCDropViewTests" */;
+			buildPhases = (
+				944D5E7E1F1899120030F055 /* Sources */,
+				944D5E7F1F1899120030F055 /* Frameworks */,
+				944D5E801F1899120030F055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				944D5E841F1899120030F055 /* PBXTargetDependency */,
+			);
+			name = NCDropViewTests;
+			productName = NCDropViewTests;
+			productReference = 944D5E821F1899120030F055 /* NCDropViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		944D5E8C1F1899120030F055 /* NCDropViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944D5E9C1F1899120030F055 /* Build configuration list for PBXNativeTarget "NCDropViewUITests" */;
+			buildPhases = (
+				944D5E891F1899120030F055 /* Sources */,
+				944D5E8A1F1899120030F055 /* Frameworks */,
+				944D5E8B1F1899120030F055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				944D5E8F1F1899120030F055 /* PBXTargetDependency */,
+			);
+			name = NCDropViewUITests;
+			productName = NCDropViewUITests;
+			productReference = 944D5E8D1F1899120030F055 /* NCDropViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		944D5E611F1899120030F055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "\U0010zhongzhi";
+				TargetAttributes = {
+					944D5E681F1899120030F055 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					944D5E811F1899120030F055 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 944D5E681F1899120030F055;
+					};
+					944D5E8C1F1899120030F055 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 944D5E681F1899120030F055;
+					};
+				};
+			};
+			buildConfigurationList = 944D5E641F1899120030F055 /* Build configuration list for PBXProject "NCDropView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 944D5E601F1899110030F055;
+			productRefGroup = 944D5E6A1F1899120030F055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				944D5E681F1899120030F055 /* NCDropView */,
+				944D5E811F1899120030F055 /* NCDropViewTests */,
+				944D5E8C1F1899120030F055 /* NCDropViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		944D5E671F1899120030F055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944D5EB81F18C6F80030F055 /* LXDropListCell.xib in Resources */,
+				944D5E7C1F1899120030F055 /* LaunchScreen.storyboard in Resources */,
+				944D5E791F1899120030F055 /* Assets.xcassets in Resources */,
+				944D5E771F1899120030F055 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944D5E801F1899120030F055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944D5E8B1F1899120030F055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		944D5E651F1899120030F055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944D5EAC1F1899380030F055 /* UIButton+ImageTitleSpacing.m in Sources */,
+				944D5EAD1F1899380030F055 /* UILabel+LXLabel.m in Sources */,
+				944D5EA11F18992C0030F055 /* UIView+Frame.m in Sources */,
+				944D5EB31F189BEF0030F055 /* LXDropView.m in Sources */,
+				944D5EAA1F1899380030F055 /* LxButton.m in Sources */,
+				944D5EB71F18C6F80030F055 /* LXDropListCell.m in Sources */,
+				944D5E741F1899120030F055 /* ViewController.m in Sources */,
+				944D5E711F1899120030F055 /* AppDelegate.m in Sources */,
+				944D5E6E1F1899120030F055 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944D5E7E1F1899120030F055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944D5E871F1899120030F055 /* NCDropViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944D5E891F1899120030F055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944D5E921F1899120030F055 /* NCDropViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		944D5E841F1899120030F055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 944D5E681F1899120030F055 /* NCDropView */;
+			targetProxy = 944D5E831F1899120030F055 /* PBXContainerItemProxy */;
+		};
+		944D5E8F1F1899120030F055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 944D5E681F1899120030F055 /* NCDropView */;
+			targetProxy = 944D5E8E1F1899120030F055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		944D5E751F1899120030F055 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944D5E761F1899120030F055 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		944D5E7A1F1899120030F055 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944D5E7B1F1899120030F055 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		944D5E941F1899120030F055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		944D5E951F1899120030F055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		944D5E971F1899120030F055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NCDropView/PrefixHeader.pch";
+				INFOPLIST_FILE = NCDropView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.NCDropView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		944D5E981F1899120030F055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NCDropView/PrefixHeader.pch";
+				INFOPLIST_FILE = NCDropView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.NCDropView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		944D5E9A1F1899120030F055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NCDropViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.NCDropViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NCDropView.app/NCDropView";
+			};
+			name = Debug;
+		};
+		944D5E9B1F1899120030F055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NCDropViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.NCDropViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NCDropView.app/NCDropView";
+			};
+			name = Release;
+		};
+		944D5E9D1F1899120030F055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NCDropViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.NCDropViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NCDropView;
+			};
+			name = Debug;
+		};
+		944D5E9E1F1899120030F055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NCDropViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.NCDropViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NCDropView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		944D5E641F1899120030F055 /* Build configuration list for PBXProject "NCDropView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944D5E941F1899120030F055 /* Debug */,
+				944D5E951F1899120030F055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944D5E961F1899120030F055 /* Build configuration list for PBXNativeTarget "NCDropView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944D5E971F1899120030F055 /* Debug */,
+				944D5E981F1899120030F055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		944D5E991F1899120030F055 /* Build configuration list for PBXNativeTarget "NCDropViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944D5E9A1F1899120030F055 /* Debug */,
+				944D5E9B1F1899120030F055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		944D5E9C1F1899120030F055 /* Build configuration list for PBXNativeTarget "NCDropViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944D5E9D1F1899120030F055 /* Debug */,
+				944D5E9E1F1899120030F055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 944D5E611F1899120030F055 /* Project object */;
+}
